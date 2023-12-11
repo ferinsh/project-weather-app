@@ -1,4 +1,5 @@
 //import loadData from "./loadWeatherData.js";
+import css from "../src/style.css";
 import loadPageContent from "./loadPageContent.js";
 
 const weatherData = {
