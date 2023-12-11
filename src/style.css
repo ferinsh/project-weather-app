@@ -1,0 +1,9 @@
+.weather-header{
+    height: 20px;
+    width: 100vw;
+    background-color: aqua;
+}
+
+body {
+    background-color: black;
+}
