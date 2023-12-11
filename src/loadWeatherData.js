@@ -1,5 +1,5 @@
 export default async function loadData(name, data){
-    const apiAddress = `http://api.weatherapi.com/v1/current.json?key=a8c47c71d28f40beb51203912230712&q=${name}&aqi=no`
+    const apiAddress = `https://api.weatherapi.com/v1/current.json?key=a8c47c71d28f40beb51203912230712&q=${name}&aqi=no`
     const response = await fetch(apiAddress, {mode: 'cors'});
     response.json().then(function (response) {
         //console.log(response);
