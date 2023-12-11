@@ -15,16 +15,26 @@ body {
     font-size: 1em;
 }
 
+video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .page-holder {
     height: 95vh;
     width: 97vw;
-    background: black;
+
     color: white;
     font-size: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 #divisionTop {
@@ -59,9 +69,7 @@ body {
     color: bisque;
 }
 
-#divRight {
-    background-color: black;
-}
+
 
 #divLeft h1, #divRight h1 {
     margin: 0;
