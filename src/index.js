@@ -23,4 +23,5 @@ loadPageContent("Bangalore", weatherData);
 
 // loadData() - function to load weather data into weatherData object.
 
-
+const bgVid = document.getElementById("bgVid");
+bgVid.innerHTML = weatherData
